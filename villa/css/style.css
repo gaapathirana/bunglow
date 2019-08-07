@@ -1,0 +1,339 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+.cover img
+{
+  width: 100%;
+  height: 55vh;
+ 
+}
+body
+{
+  background-color: #F5F5DC;
+}
+.rooms
+{
+  width: 85%;
+  float: left;
+  margin-left: 12%;
+
+}
+.r1
+{
+  width: 25%;
+  float: left;
+  height: 45vh;
+  
+}
+.Rtype
+{
+  width: 100%;
+  float: left;
+  background-color: #A9A9A9;
+  
+}
+.r2
+{
+  width: 25%;
+  height: 45vh;
+  float: left;
+  margin-left: 13%;
+  
+}
+.r3
+{
+  width: 25%;
+  height: 45vh;
+  float: right;
+  
+}
+.detail
+{
+  float: left;
+  margin-left: 4%;
+}
+.view {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+ 
+  cursor: pointer;
+}
+.view {border-radius: 12px;}
+.view:hover
+{
+  background-color: #BDB76B;
+}
+.r1Full
+{
+  width: 70%;
+  background-color: #DCDCDC;
+  display: none;
+  margin-left: 15%;
+}
+
+.r2Full
+{
+  width: 70%;
+  background-color: #DCDCDC;
+  display: none;
+  margin-left: 15%;
+}
+.r3Full
+{
+  width: 70%;
+  background-color: #DCDCDC;
+  display: none;
+  margin-left: 15%;
+}
+
+.fList
+{
+ 
+  float: left;
+  width: 80%;
+  margin-left: 10%;
+  color: #00008B;
+  font-size: 105%;
+  font-weight: bold;
+  font-style: 
+
+}
+.r1FT
+{
+  background-color: #F8F8FF;
+}
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+.img
+{
+  width: 30%;
+  height: 50vh;
+  border: 1px solid green;
+    border: 1px solid;
+  padding: 15px;
+  float: left;
+  margin-left: 10%;
+  box-shadow: 5px 10px #F5F5DC;
+}
+.txt
+{
+  width: 30%;
+  height: 50vh;
+  float: right;
+  margin-right: 27%;
+  margin-top: 5vh;
+  
+}
+
+.map
+{
+  float: left;
+  margin-left: 10%;
+}
+.dtail 
+{
+  width: 25%;
+  float: left;
+  margin-top: 10vh;
+  margin-left: 5%;
+}
+.container
+{
+  width: 50%;
+  margin-left: 25%;
+}
+#bkbtn
+{
+  float: right;
+}
+
+
+/* Button used to open the contact form - fixed at the bottom of the page */
+.open-button {
+  background-color: #555;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  width: 280px;
+}
+
+/* The popup form - hidden by default */
+.form-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+
+/* Add styles to the form container */
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+}
+
+/* Full-width input fields */
+.form-container input[type=text], .form-container input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* When the inputs get focus, do something */
+.form-container input[type=text]:focus, .form-container input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit/login button */
+.form-container .btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+
+
+table, td, th {  
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  padding: 15px;
+}
+
+.my
+{
+  width: 80%;
+  float: left;
+  margin-left: 10%;
+}
